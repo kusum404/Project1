@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assests/css/form.css">
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="admission">
+        <form class="form" action="" name="myForm" onsubmit="return formValidDate()">
+            <label for="Name">Name</label>
+            <input type="text" id="text" name="name">
+            <p id="nmessage"></p>
+
+            <label for="Phone">Phone</label>
+            <input type="tel" id="tel" name="phone">
+            <p id="pmessage"></p>
+
+            <label for="email">Email</label>
+            <input type="mail" id="mail" name="email">
+            <p id="emessage"></p>
+
+            <label for="passwod">Password</label>
+            <input type="password" id="password" name="password">
+            <p id="passmessage"></p>
+
+            <label for="confirm passwod">Confirm Password</label>
+            <input type="password" id="cpassword" name="cpassword">
+            <p id="cPassMessage"></p>
+
+            <input type="submit">
+        </form>
+        <script>
+            function formValidDate() {
+                if (document.myForm.name.value == "") {
+                    document.getElementById("nmessage").innerHTML = "name is reduired";
+                    return false;
+                }
+                if (document.myForm.phone.value == "") {
+                    document.getElementById("pmessage").innerHTML = "phone is reduired";
+                    return false;
+                }
+                if (isNaN(document.myForm.phone.value)) {
+                    document.getElementById("pmessage").innerHTML = "phone must be numeric";
+                    return false;
+                }
+                if (document.myForm.phone.value.length != "10") {
+                    document.getElementById("pmessage").innerHTML = "phone number must be 10 digits";
+                    return false;
+                }
+
+
+                if (document.myForm.email.value == "") {
+                    document.getElementById("emessage").innerHTML = "email is reduired";
+                    return false;
+                }
+                if (document.myForm.password.value == "") {
+                    document.getElementById("passmessage").innerHTML = "password is reduired";
+                    return false;
+                }
+                
+                if (document.myForm.password.value == "") {
+                    document.getElementById("cpassmessage").innerHTML = "confirm password is reduired";
+                    return false;
+                }
+                if (document.myForm.password.value != document.myForm.cpassword.value) {
+                    document.getElementById("cPassMessage").innerHTML = "Password does not match";
+                    return false;
+                }
+
+                return true;
+            }
+
+
+
+
+        </script>
+
+
+        <script src="./assests/js/firstcourse.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Start header */
+.Header{
+    background-color: rgb(237, 184, 184);
+    text-align: center;
+    padding: 2rem;
+}
+/* End header */
+
+/* Start nav bar */
+.Navbar{
+    background-color: rgb(162, 245, 245);
+}
+
+.Navbar ul{
+   list-style-type: none;
+}
+
+.Navbar li{
+    display: inline;
+}
+
+.Navbar a{
+    text-decoration: none;
+    padding: 2rem ;
+    display: inline-block;
+}
+
+.Navbar a:hover{
+    background-color: rgb(201, 244, 141);
+}
+
+/* End nav bar */
+
+/* start section */
+.wrapper> .image {
+    background-color: rgb(241, 241, 206);
+    /* padding: 4rem; */
+}
+.wrapper> .Introduction{
+    background-color: rgb(85, 224, 178);
+}
+
+.image>img{
+    width: 100%;
+}
+
+.student{
+    width: 50% ;
+    float: left;
+    height: 400px;
+    padding: 1rem;
+}
+
+
+.wrapper{
+    overflow: hidden;
+}
+
+/* start gallery */
+/* 1st step */
+.gallery{
+    overflow: hidden;
+}
+
+/* .2nd step */
+
+
+.responsive{
+    float: left;
+    width: 16.666%;
+    padding: 1rem;
+}
+
+.responsive img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(166, 212, 197);
+}
+
+.content p{
+    padding: 0.5rem 0;
+}
+
+.title{
+    text-align: center;
+    padding: 1rem 0;
+}
+/* end gallery */
+
+/* start gallery */
+/* 1st step */
+.gallery{
+    overflow: hidden;
+}
+
+/* 2nd step */
+.gallery-item{
+    width: 16.666%;
+}
+
+.responsive{
+    float: left;
+    padding: 1rem;
+}
+
+.responsive img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.content{
+    padding: 1rem 0;
+    text-align: center;
+    background-color: rgb(218, 83, 83);
+}
+
+.content p{
+    padding: 0.5rem 0;
+}
+
+title{
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* end gallery */
+
+/* start services */
+.services{
+    padding: 3rem;
+    background-color: rgb(118, 146, 146);
+    overflow: hidden;
+}
+
+.services-item{
+    width: 16.666%;
+}
+/* end services */

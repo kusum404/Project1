@@ -1,0 +1,22 @@
+.bg-img{
+    background-image: url("../bank-form/icon.jpg");
+    height: 700px;
+    background-repeat: no-repeat;
+    background-position: middle;
+    background-size: cover;
+    background-position: right bottom;
+    background-attachment: fixed;
+}
+
+.multiple{
+    background: url("../bank-form/icon.jpg"), url("../bank-form/kids2piece.jpg");
+    height: 700px;
+    background-size: 100px 100px;
+    background-repeat: no-repeat, repeat;
+    background-position: right top, left bottom;
+}
+
+.text{
+    text-decoration: underline;
+    text-transform: capitalize;
+}

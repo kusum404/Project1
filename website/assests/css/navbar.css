@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: aquamarine;
+}
+
+.nav a {
+    padding: 1rem;
+    display: inline-block;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+.nav .icon {
+    display: none;
+}
+
+
+
+@media screen and (max-width:600px) {
+    .nav a:not(:first-child){
+        display: none;
+    }
+    .nav a.icon{
+        display: block;
+        position: absolute;
+        top:0;
+        right: 0;
+
+     }
+    .nav.responsive {
+        position: relative;
+    }
+
+    .nav.responsive .icon {
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+
+    .nav.responsive a {
+        display: block;
+        float: none;
+    }
+}

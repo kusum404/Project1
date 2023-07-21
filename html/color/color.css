@@ -1,0 +1,61 @@
+.colorfirst{
+    color: rgb(255, 0, 0);
+}
+
+.colorsecond{
+    color: rgba(50, 40, 30, 0.3);
+}
+
+.colorthird{
+    color: hsl(360, 40%, 50%);
+}
+
+.colorfourth{
+    color: hsla(30, 40%,30% , 0.4);
+}
+
+.colorfifth{
+    color: #12345670;
+}
+
+.linear{
+    background-image:linear-gradient(to right, red,green,yellow);
+    height: 400px;
+   
+}
+
+.radial{
+    /* background-image:radial-gradient( red,green,yellow); */
+    background-image: repeating-radial-gradient(yellow 20%, red 30%);
+    height: 400px; 
+    margin: 2rem 0;
+}
+
+.conic{
+    /* background-image:conic-gradient( red 0deg , red 180deg, green 180deg, green 270deg, yellow 270deg, yellow 360deg); */
+    background-image: repeating-conic-gradient(yellow 20%, red 30%);
+    height: 400px; 
+    width: 400px;
+    border-radius: 50%;
+    margin: 4rem;
+    box-shadow: 1px 2px 30px 40px green;
+}
+
+.shadow{
+    font-size: 5rem;
+    text-shadow: 1px 2px 3px red;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
+}
+
+.box > img{
+   height: 400px; 
+   width: 400px;
+   object-fit: cover;
+}
+.box{
+    height: 400px;
+    width: 400px;
+    border: solid blue;
+}
+

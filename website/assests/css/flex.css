@@ -1,0 +1,35 @@
+.wrapper{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* overflow: auto; */
+    height: 500px;
+    background-color: black;
+    align-items: end;
+}
+
+.item{
+    background-color: blueviolet;
+    /* flex: 1 1 400px ; */
+    height: 300px;
+    width: 200px;
+    
+}
+.item img{
+    width: 100%;
+}
+
+@media screen and (max-width:600px) {
+    .wrapper{
+        /* flex-direction: column; */
+        align-items: end;
+        
+    }
+}
+
+.header{
+    text-align: center;
+    background-color: rgb(92, 204, 204);
+    padding: 2rem;
+}

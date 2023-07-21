@@ -1,0 +1,42 @@
+@media screen and (max-width:1200px) {
+    .pic{
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width:992px) {
+    .pic{
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width:768px) {
+    .pic{
+        width: 33.333%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .navbar li{
+        display: block;
+    }
+
+    .same{
+        width: 100%;
+    }
+
+    .pic{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:480px) {
+    .pic{
+        width: 100%;
+    }
+    
+}

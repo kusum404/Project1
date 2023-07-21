@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+.certificate{
+    background-color: bisque;
+    overflow: hidden;
+    justify-content: center;
+    height: 1500px;
+    
+}
+
+.top{
+    text-align: justify;
+    padding: 2rem;
+
+}
+
+.top1{
+    padding: 1rem;
+}
+
+.top2{
+    text-align: right;
+}
+
+.head header{
+    text-align: center;
+}
+.logo img{
+    height: 100px;
+    width: 10%;
+    align-items: start;
+    padding: 1rem;
+}
+
+.about .ns{
+    padding: 1rem;
+    line-height: 2;
+}
+
+.about .sl{
+    padding: 1rem;
+    line-height: 2;
+    text-align: right;
+}
+
+.mainbox {
+    float: left;
+}
+
+.grade12 {
+    float: right;
+}
+
+.grade11 {
+
+    float: right;
+}
+
+.right-items {
+    margin-right: 100px !important;
+}
+
+/* .mainbox{
+    padding: 1rem;
+    width: 700px;
+    height: 100px;
+} */
+
+
+
+/* .mainbox, tr, th, td{
+    border: solid;
+    border-collapse: collapse;
+} */

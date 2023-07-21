@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.pic{
+    float: left;
+    width: 33.333%;
+    padding: 1rem;
+    background-color: bisque;
+}
+
+.pic img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+
+.picture{
+    float: left;
+    width: 33.333%;
+    padding: 1rem;
+    background-color: rgb(101, 237, 237);
+}
+
+.picture img{
+    width: 100%;
+    height: 500px;
+    object-fit: cover;
+    padding: 1rem;
+}
+
+.topic{
+    text-align: center;
+    background-color: rgb(213, 148, 148);
+    padding: 2rem;
+}
+
+.pic h1{
+    text-align: center;
+}

@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.animation{
+    width: 800px;
+    height: 400px;
+    border: solid red;
+    /* position: relative; */
+}
+
+.new-animation{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(199, 127, 40);
+    animation-name: mero-animation;
+    position: absolute;
+    /* position: relative; */
+    animation-iteration-count: infinite;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+
+@keyframes mero-animation{
+    /* 0%{
+        top:0; left: 0;
+    }
+
+    25%{
+        top: 0; left: 400px;
+    }
+
+    50%{
+        top: 0px; right: 800px;
+    }
+
+    75%{
+        top: 0px; left: 400px;
+    }
+
+    100%{
+        top: 0; left: 0;
+    } */
+
+    0%{
+        top: 0;
+        left: 0;
+    }
+
+    20%{
+        top: 0;
+        left: 400px;
+        transform: translate(30px,60px);
+    }
+
+    40%{
+        top: 0;
+        right: 0;
+        transform: rotate(360deg);
+    }
+
+    60%{
+        top: 200px;
+        right: 0;
+        transform: scale(1,2);
+        transform: skew(45deg);
+    }
+
+    100%{
+        top: 200px;
+        left: 400px;
+    }
+}
+
+button{
+    padding: 2rem;
+    width: 300px;
+    transition: 2s;
+    background-color: blueviolet;
+    transition-timing-function: ease-out;
+    transition-delay: 5s;
+}
+
+button:hover{
+    width: 800px;
+    background-color: rgb(136, 255, 0);
+    color: white;
+}
+
+.pagination {
+    display: inline-block;
+  }
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+  

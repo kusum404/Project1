@@ -1,0 +1,77 @@
+h1{
+    color: purple;
+}
+.new{
+background-color: black;
+}
+.new p{
+    color: pink;
+}
+h1{
+    text-align: center;
+    font-size: 3rem;
+    background-color: black;
+}
+.old h1{
+    color:yellowgreen ;
+    background-color: antiquewhite;
+}
+
+.info>p{
+    color: green;
+}
+
+.good>p{
+    color: yellow;
+}
+
+.info p{
+    color: blue;
+}
+
+.info+ p{
+    color: aqua
+    ;
+}
+
+.info ~ p{
+    color: brown;
+}
+
+input[type="email"]{
+    color: blueviolet;
+}
+
+h1::before{
+    content: "world";
+}
+
+h1::after{
+    content: "world";
+}
+
+button:hover{
+    background-color: red;
+}
+
+.box {
+    padding: 3rem 3rem;
+    border: solid;
+    margin-top: 2rem;
+}
+
+div.second>div.departA+div.departB{
+    background-color: pink;
+    height: 100px;
+}
+
+div.second{
+    background-color: black;
+    padding: 3rem;
+}
+
+div.second>div.departA{
+    background-color: purple;
+    height: 100px;
+    margin-bottom: 2rem;
+}

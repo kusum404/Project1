@@ -1,0 +1,55 @@
+div.first{
+    background-color: rgb(227, 227, 140);
+    height:47rem;
+    padding: 3rem;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+div.second{
+    background-color: rgb(224, 107, 173);
+    height: 150px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+div.second>div.title{
+    background-color:rgb(191, 191, 238) ;
+    padding: 8px;
+    margin-bottom: 1rem;
+    font-weight: bold;
+}
+
+div.second>div.title+div.introduction{
+    background-color: rgb(202, 175, 224);
+    padding: 8px;
+    text-align: left;
+}
+
+div.first>div.firstparagraph{
+    background-color: rgb(132, 91, 91);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+div.first>div.secondparagraph{
+    background-color: rgb(240, 151, 151);
+    padding: 1rem;
+    margin-bottom: 2rem;
+}
+
+div.first>div.video{
+    background-color: rgb(93, 54, 73);
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.video {
+    display: inline-block;
+}
+
+video{
+    /* display: block; */
+    padding: 2rem;
+}

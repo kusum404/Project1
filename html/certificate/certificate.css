@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    
+}
+
+.top1{
+    padding: 1rem;
+}
+
+.top2{
+    text-align: right;
+    padding: 0rem;
+}
+
+.head{
+    text-align: center;
+}

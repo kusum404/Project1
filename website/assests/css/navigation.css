@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+*{
+margin: 0;
+box-sizing: border-box;
+
+}
+.navigation{
+    background-color: rgb(229, 173, 33);
+    /* z-index: 1; */
+}
+
+.navigation ul{
+    list-style-type: none;
+}
+
+.navigation li{
+    display: inline-block;
+}
+
+.navigation a{
+    text-decoration: none;
+    padding: 2rem;
+    display: inline-block;
+}
+
+.navigation a:hover{
+    background-color: brown;
+}
+
+.Cources-item a{
+    display: block;
+}
+
+.Cources-item{
+    background-color: aquamarine;
+    min-width: 160px;
+    display: none;
+    position: absolute;
+}
+
+.dropdown:hover .Cources-item{
+    display: block;
+}
+.Cources-item1{
+    background-color: aquamarine;
+    min-width: 160px;
+    display: none;
+    position: absolute;
+    left: 10rem;
+    top: 75%;
+}
+
+.dropdown1:hover .Cources-item1{
+    display: block;
+}
+.Cources-item2{
+    background-color: aquamarine;
+    min-width: 160px;
+    display: none;
+    position: absolute;
+    left: 10rem;
+    top: 75%;
+}
+
+.dropdown2:hover .Cources-item2{
+    display: block;
+}
+.Cources-item3{
+    background-color: aquamarine;
+    min-width: 160px;
+    display: none;
+    position: absolute;
+    left: 10rem;
+    top: 75%;
+}
+
+.dropdown3:hover .Cources-item3{
+    display: block;
+}
+
+.text p{
+    padding: 2rem;
+    text-align: justify;
+    column-count: 4;
+    column-rule: solid red;
+    column-gap: 2rem;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    line-height: 2;
+    font-family:  'Pacifico', cursive;
+    color: green !important;
+}
+
+.text p::first-line{
+    color: rgb(102, 0, 255);
+}
+
+.text p::first-letter{
+    font-size: 3rem;
+}
+
+.overflow{
+    height: 200px;
+    border: solid red;
+    width: 600px;
+    overflow-y: auto;
+    font-family: cursive;
+    outline: solid green;
+}
+
+.image img{
+    position: absolute;
+    top: 0;
+    z-index: -1;
+}
+
+.table, th, td{
+    border: solid;
+    border-collapse: collapse;
+}
+
+.table{
+    width: 700px;
+    height: 100px;
+}
+

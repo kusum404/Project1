@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.admission{
+    max-width: 600px;
+    margin: auto;
+    border: solid rgb(97, 119, 216);
+}
+
+input{
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: solid;
+}
+
+label{
+    display: block;
+    padding-bottom: 0.5rem;
+}
+
+input[type="submit"]{
+    width: 100px;
+
+}
+input[type="file"]{
+  border: solid;
+
+}
+
+.form{
+    padding: 1.5rem;
+}

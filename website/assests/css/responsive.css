@@ -1,0 +1,43 @@
+@media screen and (max-width:1200px){
+    .responsive{
+        width: 20%;
+    }
+    
+}
+
+@media screen and (max-width:992px){
+    .responsive{
+        width: 25%;
+    }
+    
+}
+
+@media screen and (max-width:768px){
+    .responsive{
+        width: 33.333%;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+
+    .Navbar li{
+        display: block;
+    }
+    .student{
+        width: 100%;
+    }
+    .responsive{
+        width: 50%;
+    }
+    
+}
+
+@media screen and (max-width:480px){
+    .responsive{
+        width: 100%;
+    }
+    
+}
+
+
